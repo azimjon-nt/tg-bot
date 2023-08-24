@@ -1,0 +1,36 @@
+version: '3.9'
+
+services:
+  # MongoDb service
+  mongo_db:
+    container_name: mongo_db
+    image: mongo:latest
+    restart: always
+    volumes:
+      - mongo:/data/db
+
+  # Tg bot service
+  tg_bot:
+    build: .
+    ports:
+      - 4000:3000
+    environment:
+      BOT_TOKEN: 6593926162:AAF164jH81d0TN2V74voZgvKkEmAM1sdhpA
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: nest_tg
+      PORT: 8080
+      ACCESS_SECRET: veryveryveryveryveryveryveryveryveryveryveryveryveryvery
+      REFRESH_SECRET: veryveryveryveryveryveryveryveryveryveryveryveryveryvery
+      REFRESH_TIME: 155000
+      ACCESS_TIME: 15000
+      ADMIN_ID_1: 50667098301
+      DB_URL: ${DB_URL}
+      PAYMENT_METHOD_TOKEN: 398062629:TEST:999999999_F91D8F69C042267444B74CC0B3C747757EB0E065
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongo:

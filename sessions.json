@@ -1,0 +1,55 @@
+{
+  "sessions": [
+    {
+      "id": "5066709830:5066709830",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9852e9580e6b0417f4f5",
+        "location_id": "64daed48f6db90d370712338",
+        "product_id": "64dafb3fbd797ce9b44ce789",
+        "menu": "ENTER_NAME"
+      }
+    },
+    {
+      "id": "1210559968:1210559968",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9ae039ad74c4c98ed71e",
+        "location_id": "64daed48f6db90d370712338",
+        "product_id": "64dafb3fbd797ce9b44ce789"
+      }
+    },
+    {
+      "id": "896638925:896638925",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9ae639ad74c4c98ed720",
+        "location_id": "64daed48f6db90d370712338",
+        "product_id": "64dafb3fbd797ce9b44ce789"
+      }
+    },
+    {
+      "id": "5117003387:5117003387",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9aee39ad74c4c98ed722",
+        "location_id": "64daed48f6db90d370712338"
+      }
+    },
+    {
+      "id": "1943599621:1943599621",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9af439ad74c4c98ed725",
+        "location_id": "64daed48f6db90d370712338"
+      }
+    },
+    {
+      "id": "1142063319:1142063319",
+      "data": {
+        "__scenes": {},
+        "user_id": "64dd9b0839ad74c4c98ed72d"
+      }
+    }
+  ]
+}
